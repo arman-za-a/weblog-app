@@ -1,8 +1,3 @@
-# Project Title
-
-A website for reading weblogs that is developed with graphql
-
-
 ## Run Locally
 
 Clone the project
