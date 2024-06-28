@@ -1,0 +1,17 @@
+@layer base {
+    * {
+        @apply box-border p-0 m-0 scroll-smooth;
+    }
+    body {
+        @apply font-yekan-medium;
+    }
+    a {
+        @apply inline-block text-inherit no-underline;
+    }
+    ul {
+        @apply list-none;
+    }
+    img {
+        display: inline;
+    }
+}

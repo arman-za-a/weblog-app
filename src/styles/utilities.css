@@ -1,0 +1,39 @@
+@layer utilities {
+    .transit {
+        @apply transition-all duration-200 ease-out;
+    }
+    .animate {
+        animation: 0.2s ease-out forwards;
+    }
+    .drop {
+        animation-name: drop;
+    }
+    .hide {
+        animation-name: hide;
+    }
+    .dropped {
+        @apply translate-y-[100px];
+    }
+}
+@keyframes drop {
+    0% {
+        transform: translateY(-100%);
+    }
+    90% {
+        transform: translateY(130px);
+    }
+    100% {
+        transform: translateY(100px);
+    }
+}
+@keyframes hide {
+    0% {
+        transform: translateY(100px);
+    }
+    10% {
+        transform: translateY(130px);
+    }
+    100% {
+        transform: translateY(-100%);
+    }
+}

@@ -1,0 +1,6 @@
+@layer components {
+    .input {
+        @apply w-full p-4 border-1 border-[#beb9b9] rounded outline-none hover:border-[#000] focus:border-2 
+            focus:border-primary transition-all duration-200 ease-out;
+    }
+}
